@@ -1,0 +1,12 @@
+language: rust
+
+env:
+  - BACKUP_ROOT=$PWD/src/fixtures
+
+rust:
+  - stable
+  - beta
+  - nightly
+
+notifications:
+  email: false
