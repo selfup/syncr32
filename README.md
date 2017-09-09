@@ -46,6 +46,10 @@ _Currently this just prints all the dirs_
 
 ### Binaries
 
-For now I will only be building Windows (.exe) binaries.
+You will have to build your own binaries so that the program can grab your ENV var.
 
-You can find it in: `.\builds\syncr32.exe`
+Otherwise it will just contain my own BACKUP_DIR path and not be very useful :joy:
+
+In the `windows_build.bat` or `unix_build.bat` change the path that `BACKUP_DIR` points to!
+
+Then run the respective script!
