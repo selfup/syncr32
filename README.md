@@ -53,3 +53,5 @@ Otherwise it will just contain my own BACKUP_DIR path and not be very useful :jo
 In the `windows_build.bat` or `unix_build.bat` change the path that `BACKUP_DIR` points to!
 
 Then run the respective script!
+
+Use at your own risk :P
