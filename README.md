@@ -50,6 +50,8 @@ You will have to build your own binaries so that the program can grab your ENV v
 
 Otherwise it will just contain my own BACKUP_DIR path and not be very useful :joy:
 
-In the `windows_build.bat` or `unix_build.bat` change the path that `BACKUP_DIR` points to!
+In the `windows_build.bat` or `unix_build.bat` change the path that `BACKUP_ROOT` points to!
 
 Then run the respective script!
+
+Use at your own risk :P
