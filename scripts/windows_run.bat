@@ -1,2 +1,2 @@
-setx BACKUP_DIR "$pwd\src\fixtures"
+setx BACKUP_ROOT "$pwd\src\fixtures"
 cargo run --release
