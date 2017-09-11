@@ -20,6 +20,10 @@ fn integration_test() {
     actions.frontload_root_dirs(&mut state);
     actions.grab_path_meta_data(&mut state);
 
-    assert_eq!(std::path::Path::new("./src/fixtures/test.md"),
+    assert_eq!(std::path::Path::new("./src/fixtures/.dotfile"),
                state.directories[0]);
+    assert_eq!(std::path::Path::new("./src/fixtures/test.md"),
+               state.directories[1]);
+    assert_eq!(std::path::Path::new("./src/fixtures/test.txt"),
+               state.directories[2]);
 }
